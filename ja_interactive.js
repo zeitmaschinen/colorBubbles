@@ -25,7 +25,7 @@ function draw() {
 
 
 
-/* Code without MouseY interaction
+/* Static, without MouseY interaction
 let firstDistance = 90;
 let secondDistance = 40;
 let firstSquareY = 150;
