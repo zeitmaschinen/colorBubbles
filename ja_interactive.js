@@ -8,7 +8,7 @@ function setup() {
   firstX = (windowWidth-firstSize)/2;
 
   // distancia pra baixo eh 6% to tamanho do primeiro quadrado
-  firstY = (windowHeight-firstSize)-firstSize*0.06;
+  firstY = (windowHeight-firstSize)-firstSize*0.16;
 
 
   //Tamanho do segundo quadrado (50%) do que for menor, altura ou largura
@@ -18,7 +18,7 @@ function setup() {
   secondX = (windowWidth-secondSize)/2;
 
   // distancia pra baixo eh 20% to tamanho do segundo quadrado
-  secondY = (windowHeight-secondSize)-secondSize*0.2;
+  secondY = (windowHeight-secondSize)-secondSize*0.36;
 
 }
 
