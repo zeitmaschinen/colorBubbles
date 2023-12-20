@@ -2,7 +2,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight); //Tamanho do canvas = tamanho da janela
 
   //Tamanho do primeiro quadrado (80%) do que for menor, largura ou algura
-  firstSize = Math.min(windowWidth, windowHeight)*0.8;
+  firstSize = Math.min(windowWidth, windowHeight)*0.6;
 
   //centralizar o primeiro quadrado (diferenca entre o tamanho do canvas e o tamanho do primeiro quadrado / 2)
   firstX = (windowWidth-firstSize)/2;
@@ -12,7 +12,7 @@ function setup() {
 
 
   //Tamanho do segundo quadrado (50%) do que for menor, altura ou largura
-  secondSize = Math.min(windowWidth, windowHeight)*0.5;
+  secondSize = Math.min(windowWidth, windowHeight)*0.4;
 
   //centralizar o segundo quadrado (diferenca entre o tamanho do canvas e do segundo quadrado / 2)
   secondX = (windowWidth-secondSize)/2;
